@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        /* Estilos para la barra de navegación */
+        nav {
+            background-color: #8B4513; /* Color café claro */
+            padding: 10px;
+        }
+
+        .navbar-nav {
+            justify-content: flex-end; /* Alinea los elementos a la derecha */
+        }
+
+        .nav-item {
+            margin-left: 20px; /* Espaciado entre los elementos */
+        }
+
+        .nav-link {
+            color: white; /* Color de texto blanco */
+            margin-right: 20px;
+        }
+
+        /* Estilos para el artículo */
+        article {
+            background-color: #00FFFF; /* Color aqua claro */
+            padding: 20px; /* Espaciado interior */
+            margin-top: 20px; /* Margen superior */
+        }
+
+        /* Estilos para la tabla */
+        
+
+        th, td {
+            text-align: center; /* Alineación de texto al centro */
+            padding: 10px; /* Espaciado interior de celdas */
+        }
+
+        /* Estilos para las tarjetas */
+        .card {
+            margin-bottom: 20px; /* Espaciado inferior entre las tarjetas */
+        }
+
+        /* Estilos para el footer */
+        footer {
+            background-color: #1E90FF; /* Color azul */
+            color: white; /* Color de texto blanco */
+            padding: 20px; /* Espaciado interior */
+        }
+    </style>
+    <title>Practica 9</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Galería</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+
+    <article>
+        <div class="container">
+            <h1>Mi pagina con bootstrap</h1>
+            <p>Bootstrap es un framework que permite a los desarrolladores web construir páginas web responsives de una forma más rápida y sencilla. En este sentido, proporciona un conjunto de componentes y plantillas CSS, HTML y JavaScript que cualquiera puede utilizar o modificar de manera gratuita.</p>
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+                <title>Tu Página</title>
+            </head>
+            <body>
+            
+            <div class="container">
+                <table class="table table-bordered table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Paterno</th>
+                            <th scope="col">Materno</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Luis</td>
+                            <td>Ramos</td>
+                            <td>Gomez</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Maria</td>
+                            <td>Castro</td>
+                            <td>Lopez</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Carlos</td>
+                            <td>Sanchez</td>
+                            <td>Diaz</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+            </body>
+            </html>
+            
+
+           
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">Compiladores</th>
+                        <th scope="col">Contabilidad</th>
+                        <th scope="col">Base de Datos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Subtítulo 1</td>
+                        <td>Subtítulo 2</td>
+                        <td>Subtítulo 3</td>
+                    </tr>
+                    <tr>
+                        <td>Texto 1</td>
+                        <td>Texto 2</td>
+                        <td>Texto 3</td>
+                    </tr>
+                    <tr>
+                        <td><a href="compiladores.html" class="card-link">Informacion</a></td>
+                        <td><a href="contabilidad.html" class="card-link">Informacion</a></td>
+                        <td><a href="base de datos.html" class="card-link">Informacion</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </article>
+    <footer>
+        <center> <div class="container">
+            Ubicación: Tuxtla Gutierrez Chiapas , Libramiento Sur Num 18
+            <br>
+            Contacto: miguel.gomez47@unach.mx, Teléfono: (961) 124-9214
+        </div>
+    </footer>
+</body>
+</html>
